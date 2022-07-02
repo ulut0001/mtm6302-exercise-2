@@ -68,7 +68,7 @@ const imageTitle = {
 function makeBig(e) {
     const sImages = e.target.id;
     const imgNew = sImages.replace("-","");
-    $bigImage.src = `images/b${imgNew}.jpg`;
+    $bigImage.src = `images/b${imgNew}.JPG`;
     $bigBox.style.display = "flex";
     bigImageTitle.innerHTML = imageTitle[imgNew];
 };
