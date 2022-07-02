@@ -85,3 +85,4 @@ $bigBox.addEventListener("click", closeFull);
 
 
 
+
