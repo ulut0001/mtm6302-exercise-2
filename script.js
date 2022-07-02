@@ -68,7 +68,7 @@ const imageTitle = {
 function makeBig(e) {
     const sImages = e.target.id;
     const imgNew = sImages.replace("-","");
-    $bigImage.src = `https://ulut0001.github.io/mtm6302-exercise-2/images/b${imgNew}.jpg`;
+    $bigImage.src = `images/b${imgNew}.jpg`;
     $bigBox.style.display = "flex";
     bigImageTitle.innerHTML = imageTitle[imgNew];
 };
