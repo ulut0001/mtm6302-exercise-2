@@ -1,0 +1,111 @@
+body {
+    font-size: 16px;
+    background-color: antiquewhite;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#mainsec {
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#small-box {
+    max-width: 1598px;
+    max-height: 803px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1.5fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 2fr;
+    grid-template-areas: "img1 img3 img6 img8 img11" "img1 img4 img6 img9 img11" "img2 img4 img7 img9 img12" "img2 img5 img7 img10 img12";
+    gap: 0.5vw;
+}
+
+#small-box > img {
+    max-width: 100%;
+}
+
+#img-1 {
+    grid-area: img1;
+    margin-top: 5px;
+}
+
+#img-2 {
+    grid-area: img2;
+    margin-bottom: 5px;
+}
+
+#img-3 {
+    grid-area: img3;
+}
+
+#img-4 {
+    grid-area: img4;
+}
+
+#img-5 {
+    grid-area: img5;
+}
+
+#img-6 {
+    grid-area: img6;
+    margin-top: 5px;
+}
+
+#img-7 {
+    grid-area: img7;
+    margin-bottom: 5px;
+}
+
+#img-8 {
+    grid-area: img8;
+}
+
+#img-9 {
+    grid-area: img9;
+}
+
+#img-10 {
+    grid-area: img10;
+}
+
+#img-11 {
+    grid-area: img11;
+    margin-top: 5px;
+}
+
+#img-12 {
+    grid-area: img12;
+    margin-bottom: 5px;
+}
+
+#big-box {
+    display: none;
+    z-index: 100;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0 , 0 , 0, 0.85);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.big-image {
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
+.big-image-title {
+    font-size: clamp(1.8rem, 6vw, 3.2rem);
+    font-weight: 800;
+    color: antiquewhite;
+    margin: -3vh 0 0 0;
+    text-transform: uppercase;
+}
+
+
+
