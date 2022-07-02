@@ -7,7 +7,7 @@ const imageHeights = [];
 
 for(i = 1; i <= 12; i++) {
     const imgId = "img-" + i;
-    smallImages.push(`<img class="small-image" id="${imgId}" src="images/img${i}.JPG">`);
+    smallImages.push(`<img class="small-image" id="${imgId}" src="https://ulut0001.github.io/mtm6302-exercise-2/images/img${i}.JPG">`);
 };
 
 $smallImage.innerHTML += smallImages.join(""); 
